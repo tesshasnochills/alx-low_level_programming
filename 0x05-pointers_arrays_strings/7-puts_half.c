@@ -4,7 +4,7 @@
  * puts_half - prints half of a string followed by a new line
  * if the number is odd, function prints the last n characters
  * n = (lenth_of_string - 1) / 2
- * @str: string to be printed
+ *@str: string to be printed
  */
 void puts_half(char *str)
 {
