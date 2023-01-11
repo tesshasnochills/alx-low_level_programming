@@ -5,9 +5,21 @@
 * @dest: string to check
 * @src: string to check
 *
-* Return: Always success (0)
+* Return: @dest
 */
 char *_strcat(char *dest, char *src)
 {
-	return (0);
+	int i, j;
+
+	for (i = 0; *(dest + i) != '\0'; i++)
+	{}
+
+	for (j = 0; *(src + j) != '\0'; j++, i++)
+	{
+		*(dest + i) = *(src + j);
+	}
+
+	*(dest + i) = '\0';
+
+	return (dest);
 }

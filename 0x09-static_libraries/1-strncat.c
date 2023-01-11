@@ -6,9 +6,22 @@
 * @src: string to add to dest
 * @n: number of bytes
 *
-* Return: Always success (0)
+* Return: @dest
 */
 char *_strncat(char *dest, char *src, int n)
 {
-	return (0);
+	int i, j;
+
+	for (i = 0; *(dest + i) != '\0'; i++)
+	{}
+
+	for (j = 0; (j < n && *(src + j) != '\0'); j++, i++)
+	{
+		*(dest + i) = *(src + j);
+	}
+
+	if (*(dest + i) != '\0')
+		*(dest + i) = '\0';
+
+	return (dest);
 }

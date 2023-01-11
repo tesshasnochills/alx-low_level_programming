@@ -5,9 +5,16 @@
 * @src: memory area to copy data from
 * @n: bytes of data to be copied
 *
-* Return: Always success (0)
+* Return: pointer to dest
 */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (0);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		*(dest + i) = *(src + i);
+	}
+
+	return (dest);
 }

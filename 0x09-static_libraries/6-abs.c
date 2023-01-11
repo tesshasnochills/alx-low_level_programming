@@ -4,9 +4,13 @@
 * _abs - computes absolute value of an integer
 * @n: int. number to check
 *
-* Return: Always success(0)
+* Return: absolute value of int
 */
 int _abs(int n)
 {
-	return (0);
+	if (n < 0)
+	{
+		return (n * -1);
+	}
+	return (n);
 }
