@@ -8,8 +8,15 @@
 *
 * Return: Always success(0)
 */
-int main(int argc, char **argv)
+int main(__attribute__((unused)) int argc, char **argv)
 {
-	printf("The program's name is: %s\n", argv[0]);
+	int t;
+
+	for (t = 0; (*argv[0] + t) != '\0'; t++)
+	{
+		putchar(*(argv[0] + t));
+	}
+	putchar('\n');
+
 	return (0);
 }
