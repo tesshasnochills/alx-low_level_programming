@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * main - prints the name of the program
 *
@@ -9,13 +10,7 @@
 */
 int main(__attribute__((unused)) int argc, char **argv)
 {
-	int t;
-
-	for (t = 0; (*argv[0] + t) != '\0'; t++)
-	{
-		_putchar(*(argv[0] + t));
-	}
-	_putchar('\n');
+	printf("%s\n", *argv);
 
 	return (0);
 }
