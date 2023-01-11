@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
 * main - prints the name of the program
 *
@@ -14,9 +14,9 @@ int main(__attribute__((unused)) int argc, char **argv)
 
 	for (t = 0; (*argv[0] + t) != '\0'; t++)
 	{
-		putchar(*(argv[0] + t));
+		_putchar(*(argv[0] + t));
 	}
-	putchar('\n');
+	_putchar('\n');
 
 	return (0);
 }
