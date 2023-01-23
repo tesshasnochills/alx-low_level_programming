@@ -12,9 +12,10 @@
 int _strcmp(char *s1, char *s2)
 {
 	int t, u;
-	int t = 0
 
-		for(u = 0; *(s1 + u) != '\0' || *(s2 + u) != '\0'; u++)
+	t = 0;
+
+		for (u = 0; *(s1 + u) != '\0' || *(s2 + u) != '\0'; u++)
 		{
 
 			if (*(s1 + u) < *(s2 + u))
