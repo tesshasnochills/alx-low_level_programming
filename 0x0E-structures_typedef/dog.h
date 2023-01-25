@@ -15,5 +15,6 @@ typedef struct dog
 		
 } my_dog;
 
+void print_dog(struct dog *d);
 
 #endif /* DOG_H */
