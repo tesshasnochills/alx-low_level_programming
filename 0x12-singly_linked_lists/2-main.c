@@ -5,7 +5,7 @@
 
 /**
  * main - check the code
- *
+ * print_list - prints linked list
  * Return: Always 0.
  */
 int main(void)
