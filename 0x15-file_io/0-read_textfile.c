@@ -1,7 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 #include "main.h"
 
 /**
-* read_textfile - reads the text file and prints it to the POSTIX standard output
+* read_textfile - reads the text file and prints it
+* to the POSTIX standard output
 * @filename: is the path to the file
 * @letters: number of letters it should read and print
 *
