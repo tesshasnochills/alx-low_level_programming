@@ -1,2 +1,4 @@
 #!/bin/bash
 gcc -S -masm=intel $CFILE
+
+# The script generated the assembly code (intel syntax).

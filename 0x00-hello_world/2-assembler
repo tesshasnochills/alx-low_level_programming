@@ -1,2 +1,6 @@
 #!/bin/bash
 gcc -S $CFILE
+
+# Write a script that generates the assembly code of a C code and save it in an output file.
+# **FUCNTIONALTIY**
+# 1. gcc -S : this script tells the compiler to stop after stage of compiler and to not assemble

@@ -1,2 +1,6 @@
 #!/bin/bash
 gcc -c $CFILE
+
+# Write a script that compiles a C file but does not link.
+# **FUCTIONALITY**
+# 1. gcc -c : tells the compiler not to run the linker hence the files remain as .o files

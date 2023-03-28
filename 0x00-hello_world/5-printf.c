@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
  * main - entry point
- *
+ * 
+ * **FUNCTIONALITY**
+ * 1. printf prints formatted data to stdout, and is included in the stdio library.
  * Return: Always 0 (Success)
  */
 int main(void)

@@ -1,2 +1,4 @@
 #!/bin/bash
 gcc $CFILE -o cisfun
+
+# The script compiles the file and created an executable
