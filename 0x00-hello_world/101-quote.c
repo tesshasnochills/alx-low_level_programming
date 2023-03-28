@@ -5,16 +5,23 @@
  *
  * Return: Always 0 (Success)
  *
- * -FUNCTIONALITY-
- * 1. the program is entered through main
- * 2. p is initialised and is assigned an array of characters
- * 3. i is initialised as the index of the chatacters in the array
- * 4. the for loop starts and i is initialised to 0 
- * 5. a condition is stated whereas as long as p + i is not equal to the null character,
- * 	one is added to i every time the loop runs
- * 6. putchar prints each character as the loop runs *(p + i)
- * 7. then a new line is printed
- * 8. THEN THE RETURN FUNCTION
+ *	FUNCTIONALITY *
+ * 	1.	The program is entered through main
+ * 
+ * 	2.	P is initialised and is assigned an array of characters
+ * 
+ * 	3.	I is initialised as the index of the chatacters in the array
+ * 
+ * 	4.	The for loop starts and i is initialised to 0 
+ * 
+ * 	5.	A condition is stated whereas as long as p + i is not equal to the null character,
+ * 		one is added to i every time the loop runs
+ * 
+ * 	6.	Putchar prints each character as the loop runs *(p + i)
+ * 
+ * 	7.	Then a new line is printed
+ * 
+ * 	8.	Then the function returns 0.
  */
 int main(void)
 {
