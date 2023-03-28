@@ -6,6 +6,25 @@
  * main - entry point
  *
  * Return: Always 0 (Success)
+ * 
+ *	FUNCTIONALITY *
+ * 	1.	Main is the entry point for any program
+ * 	
+ * 	2.	Integers n and last are initialised.
+ * 
+ * 	3.	srand(time(0)) is used to seed the random number,
+ * 		time(0) returns the current time that is a unique value,
+ * 		that is used to seed the random number.
+ * 
+ * 	4.	line 30 is used to generate a random number between [-RAND_MAX \ 2 , +RAND_MAX \ 2 ]
+ * 		that has a max value.
+ * 		
+ * 	5.	to get the last digit of the number, modulus 10 is performed.
+ * 
+ * 	6.	And the corresponding strings are printed using printf depending on the number.
+ * 
+ * 	7. The function returns 0 signifying the end of the main() function.
+ * 
  */
 
 int main(void)
