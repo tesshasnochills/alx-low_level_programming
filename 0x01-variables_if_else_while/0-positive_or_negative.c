@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - checks for positivity of random number
  *
  * Return: Always 0 (Success)
  * 

@@ -1,9 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - prints all possible number combinations of single digit numbers
  *
  * Return: Always 0 (Success)
+ * 
+ * FUNCTIONALITY *
+ * 
+ * 	1. Declare an integer variable a and initalize it to 0
+ * 	2. 
  */
 int main(void)
 {
