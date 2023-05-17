@@ -3,7 +3,12 @@
 
 /**
  * main - check the code
- *
+ * 
+ * FUNCTIONALITY *
+ * 1. Variables a and b are initialised as integers.
+ * 2. They are then assigned values.
+ * 3. 
+ * 
  * Return: Always 0.
  */
 int main(void)
