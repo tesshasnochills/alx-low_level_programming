@@ -1,55 +1,42 @@
 #include <stdio.h>
-
 /**
- * main - prints all possible combinations of two digits.
- * 
- * 
- * FUNCTIONALITY *
- * 1. Variables i and j are initialized to 0
- * 2. A while loop is used to iterate through the values,
- *      of i and j from 0 to 9
- * 3. A nested if loop checks if i is less than j
- * 4. If it is i and j are printed as their corresponding character values
- * 5. Another nested if loop checks is i=8 and j=9,
- *      If true do nothing
- * 6. if not, print a comma followed by a space
- * 7. J is incremented by one
- * 8. Steps 3-7 are repeated until j<=9 becomes false
- * 9. After that nested loop ends, j is set to 0,
- *      and incremented by one.
- * 10. A new line is printed and O is returned,
- *      signifying successful execution.
- * 
- * Return: Always 0 (Success)
-*/
+ * main - Prints all combinations of two digits with,
+ * and space followed by new line
+ *
+ * Return: returns 0
+ *
+ * FUNCTONALITY *
+ *
+ * 1. The outer for loop is used to print the first digit of the two digit number.
+ * 2. The inner for loop is used to print the second digit of the two digit number.
+ * 3. The if statement is used to print the comma and space after each two digit number except the last two digit number.
+ * 4. The putchar() function is used to print the digits and the comma and space.
+ * 5. The continue statement is used to skip the printing of the comma and space after the last two digit number.
+ * 6. The putchar('\n') function is used to print a new line after the last two digit number.
+ */
+
 int main(void)
 {
-    int i = 0, j = 0;
+	int i, j;
 
-    while (i <= 9)
-    {
-        while (j <= 9)
-        {
-            if (i < j)
-            {
-                putchar(i + '0');
-                putchar(j + '0');
+	for (i = '0'; i <= '9'; i++)
+	{
+		for (j = i + 1; j <= '9'; j++)
+		{
+			putchar(i);
+			putchar(j);
 
-                if (i == 8 && j == 9)
-                {
-                    /*do nothing*/
-                }
-                else
-                {
-                    putchar(',');
-                    putchar(' ');
-                }
-            }
-            j++;
-        }
-        j = 0;
-        j++;
-    }
-    putchar('\n');
-    return (0);
+			if (i == '8' && j == '9')
+			{
+				continue;
+			}
+
+			putchar(',');
+			putchar(' ');
+
+		}
+	}
+
+	putchar('\n');
+	return (0);
 }
