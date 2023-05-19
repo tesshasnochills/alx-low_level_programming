@@ -2,7 +2,7 @@
 
 /**
  * main - prints all possible combinations of three digits
- * 
+ *
  * Return: 0(Always success)
 */
 int main(void)
@@ -13,19 +13,20 @@ int main(void)
 	{
 		for (j = i + 1; j <= '9'; j++)
 		{
-            for (k = j + 1; k <= 9; k++)
-            {
-			    putchar(i);
-			    putchar(j);
+			for (k = j + 1; k <= 9; k++)
+			{
+				putchar(i);
+				putchar(j);
+				putchar(k);
 
-			    if (i == '7' && j == '8' && k == '9')
-			    {
-				    continue;
-			    }
+				if (i == '7' && j == '8' && k == '9')
+				{
+					continue;
+				}
 
 			    putchar(',');
 			    putchar(' ');
-            }
+			}
 		}
 	}
 
