@@ -1,31 +1,31 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_triangle - prints a triangle, followed by a new line
+ * print_triangle - prints a triangle followed by a new line
  * @size: size of the triangle
- */
+ *
+ * Return: ALways Success(0)
+*/
 void print_triangle(int size)
 {
-if (size <= 0)
-{
-_putchar('\n');
-}
-else
-{
-int i, j;
+	int row, column, i;
 
-for (i = 0; i <= size; i++)
-{
-for (j = 0; j <= size; j++)
-{
-_putchar(' ');
-}
-for (j = 1; j <= i; j++)
-{
-_putchar('#');
-}
+	if (size <= 0)
+	{
+		_putchar('\n');
+	}
 
-_putchar('\n');
-}
-}
+	for (row = 0; row < size; row++)
+	{
+		for (column = size - row; column > 1; column--)
+		{
+			_putchar(' ');
+		}
+		for (i = row + column; i >= 1; i--)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
+	}
 }
