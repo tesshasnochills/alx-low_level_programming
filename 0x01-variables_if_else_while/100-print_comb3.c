@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Prints all combinations of two digits with,
  * and space followed by new line
@@ -16,9 +17,9 @@
  *       and space.
  * 5. The continue statement is used to skip the printing,
  *       of the comma and space after the last two digit number.
- * 6. The putchar('\n') function is used to print,
- *      a new line after the last two digit number.
- * 
+ * 6. The putchar('\n') function is used to print
+ *		a new line after the last two digit number.
+ *
  * Return: returns 0
  */
 
