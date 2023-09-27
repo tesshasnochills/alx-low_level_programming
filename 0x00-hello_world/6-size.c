@@ -5,11 +5,24 @@
  * 
  * Return: Always 0 (Success)
  * 
- * -FUNCTIONALITY-
- * - the piece of code uses the sizeof function (during compile time),
- * to compute the sixe of its operand.
- * - the result is an unsigned int and is denoted by size_t
- *  
+ * FUNCTIONALITY *
+ * 
+ * 1. The first line is a preprocessor command indicated by #.
+ * 	 tells the preprocessor to include the contents of the stdio.h header file.
+ * 
+ * 2. We are printing the size of a char using the sizeof() operator.
+ * 
+ * 3. We are printing the size of a int using the sizeof() operator.
+ * 
+ * 4. We are printing the size of a long int using the sizeof() operator.
+ * 
+ * 5. We are printing the size of a long long int using the sizeof() operator.
+ * 
+ * 6. We are printing the size of a float using the sizeof() operator.
+ * 
+ * 7. The return 0 statement is the exit status of the program (Success)
+ * 
+ * Time complexity: 
  */
 int main(void)
 {
