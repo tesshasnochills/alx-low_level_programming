@@ -7,6 +7,9 @@
  * 
  * **FUNCTIONALITY**
  * 1. puts - write a line to the output screen.
+ * 2. return 0 means the program has exited successfully
+ * 
+ * time complexity: 
  */
 int main(void)
 {
