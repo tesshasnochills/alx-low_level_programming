@@ -3,9 +3,17 @@
 
 /**
  * print_to_98 - prints all natural numbers from n to 98
- * @n: print from thr=is number
+ * @n: print from this number
  *
  * Retrun: Always success(0)
+ * 
+ * FUNCTINALITY *
+ * 
+ * 1. If the number is less than 98 it will print all the numbers from n to 98.
+ * 
+ * 2. If the number is greater than 98, it will print all the numbers from n to 98.
+ * 
+ * 3. If the number is 98 it will print 98.
 */
 
 void print_to_98(int n)

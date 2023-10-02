@@ -14,7 +14,7 @@
  * 
  * 	2.	srand(time(0)) is used to seed the random number.
  * 		the time(0) fxn returns the current time, that is a unique value,
- * 		that can be used toseed the random number generator.
+ * 		that can be used to seed the random number generator.
  * 
  * 	3.	Rand() generates a random integer, and RANDMAX is a macro constant,
  * 		that reps the max value that rand can return.
